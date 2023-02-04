@@ -1,5 +1,6 @@
 import React from "react";
 import chair from "../../../../src//assets//images///chair.png";
+import PrimaryButton from "../../../components/PrimaryButton/PrimaryButton";
 const Banner = () => {
   return (
     <div className="hero bg-base-200">
@@ -11,9 +12,9 @@ const Banner = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <PrimaryButton> Get Started </PrimaryButton>
         </div>
-        <img src={chair} alt="img" className="w-1/2 rounded-lg shadow-2xl" />
+        <img src={chair} alt="img" className="lg:w-1/2 rounded-lg shadow-2xl" />
       </div>
     </div>
   );
